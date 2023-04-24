@@ -1,12 +1,10 @@
-import css from './App.module.css';
-import RenderingLists from './components/RenderingLists';
+import "./App.css";
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 
 function App() {
-  return (
-    <div className={css.App}>
-      <RenderingLists />
-    </div>
-  );
+  return <div className="App">
+      <LifeCyclesCDM />
+  </div>;
 }
 
 export default App;

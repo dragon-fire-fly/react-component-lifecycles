@@ -1,9 +1,9 @@
 import "./App.css";
-import LifeCyclesCWU from "./components/LifeCycleCWU";
+import UncontrolledForm from "./components/UncontrolledForm";
 
 function App() {
   return <div className="App">
-      <LifeCyclesCWU />
+      <UncontrolledForm />
     </div>;
 }
 

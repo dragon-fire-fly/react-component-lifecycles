@@ -1,9 +1,9 @@
 import "./App.css";
-import HTTPRequestsFT from "./components/HTTPRequestsFT";
+import HTTPPost from "./components/HTTPPost";
 
 function App() {
   return <div className="App">
-      <HTTPRequestsFT />
+      <HTTPPost />
     </div>;
 }
 
